@@ -17,7 +17,7 @@ describe('App', () => {
       this.fetchTweets = fetchTweetsStub;
       this.startInterval = startIntervalStub;
       this.cleanUpInterval = cleanUpIntervalStub;
-    } 
+    }
   }
 
   it('will fetch a set of tweets on the initial render', () => {
